@@ -1,0 +1,39 @@
+name: Repo health
+
+on:
+  schedule:
+    - cron: "43 5 * * 1"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check every GitHub repo in the README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/check_repos.py README.md health-report.md
+      - name: Open, update or close the stale-lists issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh label create stale-lists --color fbca04 --description "Reported by the weekly repo health check" 2>/dev/null || true
+          number=$(gh issue list --label stale-lists --state open --json number --jq '.[0].number // empty')
+          if [ -s health-report.md ]; then
+            if [ -n "$number" ]; then
+              gh issue edit "$number" --body-file health-report.md
+            else
+              gh issue create --title "Lists that may need attention" --label stale-lists --body-file health-report.md
+            fi
+          elif [ -n "$number" ]; then
+            gh issue close "$number" --reason completed --comment "Every list is healthy this week, so I am closing this."
+          fi

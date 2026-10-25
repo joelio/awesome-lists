@@ -1,0 +1,31 @@
+name: Suggest a list
+description: Tell me about an awesome list that should be here.
+title: "Suggest: "
+labels: ["new-list"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. A list qualifies when it is curated, public on GitHub, not archived, pushed to in the last 18 months, and has 500 or more stars (or is the best in its niche).
+  - type: input
+    id: url
+    attributes:
+      label: URL of the list
+      description: The GitHub link.
+      placeholder: https://github.com/owner/awesome-something
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Where in the README it should go, for example "Programming languages / Go".
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be here?
+      description: What makes it the list to recommend for this topic?
+    validations:
+      required: true

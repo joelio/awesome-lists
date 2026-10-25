@@ -1,0 +1,98 @@
+name: Links
+
+on:
+  pull_request:
+    paths:
+      - README.md
+      - .github/lychee.toml
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: links-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  pull-request:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.run_id }}
+          restore-keys: lychee-
+      - uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: --config .github/lychee.toml --cache --no-progress README.md
+          fail: true
+          jobSummary: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  full:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.run_id }}
+          restore-keys: lychee-
+      - name: Check every link
+        id: lychee
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: --config .github/lychee.toml --cache --no-progress README.md
+          output: lychee-report.md
+          format: markdown
+          fail: false
+          jobSummary: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Open, update or close the broken-links issue
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          LYCHEE_EXIT: ${{ steps.lychee.outputs.exit_code }}
+        with:
+          script: |
+            const fs = require('fs');
+            const label = 'broken-links';
+            const title = 'Broken links in the README';
+            const { owner, repo } = context.repo;
+            try {
+              await github.rest.issues.createLabel({ owner, repo, name: label, color: 'd73a4a', description: 'Reported by the weekly link check' });
+            } catch (e) { /* label already exists */ }
+            const open = await github.rest.issues.listForRepo({ owner, repo, labels: label, state: 'open', per_page: 1 });
+            const existing = open.data[0];
+            const exit = process.env.LYCHEE_EXIT;
+            if (exit === '0') {
+              if (existing) {
+                await github.rest.issues.createComment({ owner, repo, issue_number: existing.number, body: 'Every link passed this week, so I am closing this.' });
+                await github.rest.issues.update({ owner, repo, issue_number: existing.number, state: 'closed', state_reason: 'completed' });
+              }
+              return;
+            }
+            let report = fs.existsSync('lychee-report.md') ? fs.readFileSync('lychee-report.md', 'utf8') : 'No report was produced. See the workflow run.';
+            if (report.length > 60000) report = report.slice(0, 60000) + '\n\n(report truncated)';
+            const run = `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`;
+            const body = `The link check found problems. [Workflow run](${run}).\n\n${report}`;
+            if (existing) {
+              await github.rest.issues.update({ owner, repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body, labels: [label] });
+            }
