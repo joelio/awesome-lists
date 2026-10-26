@@ -29,7 +29,13 @@ LINK = re.compile(r"\]\(https://github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+?)
 ITEM = re.compile(r"^\s*[-*+]\s+(?:\*\*)?\[[^\]]+\]\(([^)]+)\)(?:\*\*)?(.*)$")
 
 
+class FetchError(Exception):
+    """A request kept failing for a reason other than a 404."""
+
+
 def get(url, raw=False):
+    """Return the parsed body, None for a 404, or raise FetchError."""
+    reason = "no response"
     for _ in range(3):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40) as resp:
@@ -38,9 +44,17 @@ def get(url, raw=False):
         except urllib.error.HTTPError as err:
             if err.code == 404:
                 return None
-        except (urllib.error.URLError, TimeoutError, ValueError):
-            pass
-    return None
+            reason = f"HTTP {err.code}"
+        except (urllib.error.URLError, TimeoutError, ValueError) as err:
+            reason = str(err)
+    raise FetchError(reason)
+
+
+def try_get(url, raw=False):
+    try:
+        return get(url, raw)
+    except FetchError:
+        return None
 
 
 def idle_days(pushed_at):
@@ -61,10 +75,13 @@ def curation(md):
 
 
 def vet(slug):
-    repo = get(f"https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/{urllib.parse.quote(slug, safe='')}")
+    try:
+        repo = get(f"https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/{urllib.parse.quote(slug, safe='')}")
+    except FetchError as err:
+        return slug, "", f"could not be checked ({err}), try again later"
     if not repo:
         return slug, "", "not found"
-    owner = get(f"https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/{repo['owner']}") or {}
+    owner = try_get(f"https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/{repo['owner']}") or {}
     name = (owner.get("name") or "").strip() or repo["owner"]
     problems = []
     if repo["archived"]:
@@ -78,7 +95,7 @@ def vet(slug):
     if repo["full_name"].lower() != slug.lower():
         problems.append(f"moved to {repo['full_name']}")
     readme = ((repo.get("metadata") or {}).get("files") or {}).get("readme") or "README.md"
-    md = get(f"https://raw.githubusercontent.com/{repo['full_name']}/{repo.get('default_branch') or 'main'}/{readme}", raw=True)
+    md = try_get(f"https://raw.githubusercontent.com/{repo['full_name']}/{repo.get('default_branch') or 'main'}/{readme}", raw=True)
     items, described = curation(md) if md else (0, 0)
     score = f"{described}/{items} items described" if items else "README not parsed, check by hand"
     return slug, name, ", ".join(problems) or f"ok, {repo['stargazers_count']} stars, {score}"
@@ -87,8 +104,21 @@ def vet(slug):
 def discover(readme):
     have = {f"{o}/{r}".lower() for o, r in LINK.findall(open(readme, encoding="utf-8").read())}
     pages = [f"https://awesome.ecosyste.ms/api/v1/lists?per_page=100&page={p}&sort=stars&order=desc" for p in range(1, 41)]
+    failed = []
+
+    def fetch_page(url):
+        try:
+            return get(url) or []
+        except FetchError as err:
+            failed.append(f"{url} ({err})")
+            return []
+
     with ThreadPoolExecutor(max_workers=6) as pool:
-        lists = [entry for page in pool.map(get, pages) for entry in (page or [])]
+        lists = [entry for page in pool.map(fetch_page, pages) for entry in page]
+    if failed:
+        print(f"Warning: {len(failed)} of {len(pages)} catalogue pages could not be fetched, so this search is incomplete:", file=sys.stderr)
+        for line in failed:
+            print(f"  {line}", file=sys.stderr)
     seen = set()
     for entry in lists:
         repo = entry.get("repository") or {}
