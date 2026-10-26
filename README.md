@@ -11,7 +11,7 @@ An awesome list is a hand-picked collection of the best tools, libraries and rea
 
 This is a list of lists. It points to one good starting place for each topic, from Kubernetes and Rust to accessibility and testing, so you can find the right one in a minute instead of an afternoon.
 
-To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 607 lists so far.
+To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 613 lists so far.
 
 ## Contents
 
@@ -64,6 +64,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
   - [Elixir](#elixir)
   - [Elm](#elm)
   - [F#](#f)
+  - [Fortran](#fortran)
   - [Gleam](#gleam)
   - [Go](#go)
   - [Haskell](#haskell)
@@ -76,10 +77,15 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
   - [Odin](#odin)
   - [Pascal and Delphi](#pascal-and-delphi)
   - [PHP](#php)
+  - [Prolog](#prolog)
   - [Python](#python)
   - [R](#r)
+  - [Roc](#roc)
+  - [Rocq and proof assistants](#rocq-and-proof-assistants)
   - [Ruby](#ruby)
   - [Rust](#rust)
+  - [Scala](#scala)
+  - [Scheme](#scheme)
   - [Shell](#shell)
   - [Swift](#swift)
   - [V](#v)
@@ -456,6 +462,10 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-fsharp](https://github.com/fsprojects/awesome-fsharp) by F# Community Project Incubation Space - F# frameworks, libraries and tools.
 
+### Fortran
+
+- [awesome-fortran](https://github.com/rabbiabram/awesome-fortran) by Vladislav - Modern Fortran libraries, compilers and tools.
+
 ### Gleam
 
 - [awesome-gleam](https://github.com/gleam-lang/awesome-gleam) by Gleam - Gleam packages, projects and resources.
@@ -519,6 +529,10 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-php](https://github.com/ziadoz/awesome-php) by Jamie York - PHP libraries, resources and tools.
 
+### Prolog
+
+- [awesome-prolog](https://github.com/klaudiosinani/awesome-prolog) by Klaudio Sinani - Prolog implementations, libraries and learning material.
+
 ### Python
 
 - [awesome-asgi](https://github.com/florimondmanca/awesome-asgi) by Florimond Manca - ASGI servers, frameworks and libraries for async Python web apps.
@@ -538,6 +552,14 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-R](https://github.com/qinwf/awesome-R) by qinwf - R packages, frameworks and software.
 
+### Roc
+
+- [roc-awesome](https://github.com/lukewilliamboswell/roc-awesome) by Luke Boswell - Packages, platforms and examples for the Roc language.
+
+### Rocq and proof assistants
+
+- [awesome-coq](https://github.com/rocq-community/awesome-coq) by Rocq-community - Libraries, plugins and courses for the Rocq (formerly Coq) proof assistant.
+
 ### Ruby
 
 - [awesome-rails](https://github.com/gramantin/awesome-rails) by Gramantin - Libraries and resources for Ruby on Rails.
@@ -551,6 +573,14 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-ratatui](https://github.com/ratatui/awesome-ratatui) by Ratatui - Apps and libraries built with Ratatui.
 - [awesome-rust](https://github.com/rust-unofficial/awesome-rust) by rust-unofficial - Rust code and resources.
 - [awesome-yew](https://github.com/jetli/awesome-yew) by Jet Li - Things for building web apps in Rust with Yew.
+
+### Scala
+
+- [awesome-scala-native](https://github.com/tindzk/awesome-scala-native) by Tim Nieradzik - Libraries and tools for compiling Scala to native code.
+
+### Scheme
+
+- [awesome-scheme](https://github.com/schemedoc/awesome-scheme) by Scheme Documentation - Scheme implementations, libraries and books.
 
 ### Shell
 
