@@ -11,7 +11,7 @@ An awesome list is a hand-picked collection of the best tools, libraries and rea
 
 This is a list of lists. It points to one good starting place for each topic, from Kubernetes and Rust to accessibility and testing, so you can find the right one in a minute instead of an afternoon.
 
-To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 621 lists so far.
+To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 624 lists so far.
 
 ## Contents
 
@@ -305,6 +305,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 ### System design
 
 - [awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) by Ashish Pratap Singh - Free articles and videos on system design concepts, grouped by topic.
+- [system-design-primer](https://github.com/donnemartin/system-design-primer) by Donne Martin - A guided path through designing large systems, with worked examples and Anki cards.
 
 ## Developer tools
 
@@ -1160,8 +1161,10 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-learn-by-playing](https://github.com/lmammino/awesome-learn-by-playing) by Luciano Mammino - Games that teach CSS, Git, SQL, regex and more.
 - [awesome-roadmaps](https://github.com/liuchong/awesome-roadmaps) by 刘冲 - Roadmaps for learning many technologies.
 - [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) by CodeCrafters - Step-by-step guides to building your own database, Git, shell and more.
+- [coding-interview-university](https://github.com/jwasham/coding-interview-university) by John Washam - A long study plan for computer science fundamentals, built for interview preparation.
 - [computer-science](https://github.com/ossu/computer-science) by Open Source Society University - A free, self-taught path through computer science.
 - [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) by Developer-Y - Recorded university computer science courses, grouped by subject.
+- [every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) by MTDV - Reading on things every developer runs into, from Unicode and time to security.
 - [free-programming-books](https://github.com/EbookFoundation/free-programming-books) by Free Ebook Foundation - Free programming books and courses.
 - [learn-to-program](https://github.com/karlhorky/learn-to-program) by Karl Horky - Free resources for learning to program, from beginner to advanced.
 - [papers-we-love](https://github.com/papers-we-love/papers-we-love) by Papers We Love - Computer science papers worth reading and discussing.
