@@ -11,7 +11,7 @@ An awesome list is a hand-picked collection of the best tools, libraries and rea
 
 This is a list of lists. It points to one good starting place for each topic, from Kubernetes and Rust to accessibility and testing, so you can find the right one in a minute instead of an afternoon.
 
-To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 649 lists so far.
+To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 658 lists so far.
 
 ## Contents
 
@@ -156,6 +156,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
   - [Learning](#learning)
   - [Practice and conventions](#practice-and-conventions)
   - [Reading, watching and listening](#reading-watching-and-listening)
+  - [Schools and education](#schools-and-education)
 - [What qualifies](#what-qualifies)
 - [How it stays fresh](#how-it-stays-fresh)
 
@@ -855,11 +856,14 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-appium](https://github.com/SrinivasanTarget/awesome-appium) by Srinivasan Sekar - Appium resources for mobile testing.
 - [awesome-browser-automation](https://github.com/angrykoala/awesome-browser-automation) by angrykoala - Browser automation tools, from Puppeteer to AI agents.
+- [awesome-gatling](https://github.com/aliesbelik/awesome-gatling) by Aliaksandr Belik - Plugins, guides and examples for the Gatling load testing tool.
 - [awesome-http-benchmark](https://github.com/denji/awesome-http-benchmark) by Denys Denysov - HTTP benchmark and load testing tools.
 - [awesome-jest](https://github.com/jest-community/awesome-jest) by Jest Community - Jest packages and resources.
 - [awesome-k6](https://github.com/grafana/awesome-k6) by Grafana Labs - Tools and content for k6 load testing.
+- [awesome-locust](https://github.com/aliesbelik/awesome-locust) by Aliaksandr Belik - Plugins, guides and examples for the Locust load testing tool.
 - [awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing) by Théo FIDRY - Mutation testing tools across languages.
 - [awesome-playwright](https://github.com/mxschmitt/awesome-playwright) by Max Schmitt - Tools, utilities and projects built with Playwright.
+- [awesome-qa](https://github.com/malomarrec/awesome-qa) by Malo Marrec - QA and end-to-end testing tools, from test runners to visual testing.
 - [awesome-regression-testing](https://github.com/mojoaxel/awesome-regression-testing) by Alexander Wunschik - Visual regression testing resources.
 - [awesome-robotframework](https://github.com/MarketSquare/awesome-robotframework) by marketsquare - Libraries, tools and learning material for Robot Framework.
 - [awesome-selenium](https://github.com/christian-bromann/awesome-selenium) by Christian Bromann - Selenium resources.
@@ -867,6 +871,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-tap](https://github.com/sindresorhus/awesome-tap) by Sindre Sorhus - Resources for the Test Anything Protocol.
 - [awesome-test-automation](https://github.com/atinfo/awesome-test-automation) by at.info - Test automation frameworks and tools, with a page for each language.
 - [awesome-testing](https://github.com/TheJambo/awesome-testing) by James Osborn - Testing blogs, talks and tools.
+- [awesome-testing-blogs](https://github.com/ChristoWolf/awesome-testing-blogs) by Christoph Wolf - Blogs, newsletters and podcasts on software testing.
 
 ## Accessibility
 
@@ -904,6 +909,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 ### AI safety and governance
 
+- [awesome-ai-eval](https://github.com/Vvkmnn/awesome-ai-eval) by V - Tools, methods and platforms for evaluating how reliable AI systems are.
 - [awesome-artificial-intelligence-regulation](https://github.com/EthicalML/awesome-artificial-intelligence-regulation) by The Institute for Ethical Machine Learning - AI guidelines, principles, standards and laws around the world.
 - [awesome-llm-interpretability](https://github.com/JShollaj/awesome-llm-interpretability) by Johnny Shollaj - Tools, papers and articles on understanding how LLMs work inside.
 - [Awesome-LLM-Safety](https://github.com/ydyjya/Awesome-LLM-Safety) by ydyjya - Papers and articles on LLM safety, from alignment to jailbreaks.
@@ -1096,11 +1102,13 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-astronomy](https://github.com/jonathansick/awesome-astronomy) by Jonathan Sick - Astronomy software, datasets and blogs.
 - [awesome-bci](https://github.com/NeuroTechX/awesome-bci) by NeuroTechX - Software, hardware and datasets for brain-computer interfaces.
 - [Awesome-Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics) by Daniel E Cook - Bioinformatics software and libraries.
+- [awesome-climate-change](https://github.com/stevematthew/awesome-climate-change) by Stephen Matthew - Data, tools and reading on climate change.
 - [awesome-computational-social-science](https://github.com/gesiscss/awesome-computational-social-science) by GESIS – Leibniz Institute for the Social Sciences - Courses, books and tools for computational social science.
 - [awesome-control-theory](https://github.com/A-make/awesome-control-theory) by A-make - Books, courses and tools for learning control theory.
 - [awesome-earth](https://github.com/philsturgeon/awesome-earth) by Phil Sturgeon - Practical things people and teams can do about the climate crisis.
 - [awesome-materials-informatics](https://github.com/tilde-lab/awesome-materials-informatics) by Tilde - Software, data and efforts in materials informatics.
 - [awesome-math](https://github.com/rossant/awesome-math) by Cyrille Rossant - Courses, books and tools for learning mathematics.
+- [awesome-neuroimaging](https://github.com/NPACore/awesome-neuroimaging) by NPACore - Tools for organising and analysing brain imaging data.
 - [awesome-neuroscience](https://github.com/analyticalmonk/awesome-neuroscience) by Akash Tandon - Neuroscience libraries, software and learning material.
 - [awesome-nuclear](https://github.com/paulromano/awesome-nuclear) by Paul Romano - Open source software for nuclear science and engineering.
 - [awesome-open-climate-science](https://github.com/pangeo-data/awesome-open-climate-science) by Pangeo - Open software for climate, ocean and atmospheric science.
@@ -1132,6 +1140,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 ### Finance and trading
 
 - [awesome-quant](https://github.com/wilsonfreitas/awesome-quant) by Wilson Freitas - Libraries and resources for quantitative finance, by language.
+- [awesome-sustainable-finance](https://github.com/open-risk/awesome-sustainable-finance) by Open Risk - Software and data for sustainable finance and climate risk.
 - [awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) by Papers With Backtest - Libraries, strategies and books for systematic trading.
 
 ### Jobs and remote work
@@ -1215,6 +1224,10 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-newsletters](https://github.com/zudochkin/awesome-newsletters) by Dmitry Zudochkin - Newsletters on web development, programming and design.
 - [awesome-talks](https://github.com/JanVanRyswyck/awesome-talks) by Jan Van Ryswyck - Online talks and screencasts for developers.
 - [awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers) by Jose de Freitas - YouTube channels that teach programming and computer science.
+
+### Schools and education
+
+- [awesome-opensource-school](https://github.com/zefanja/awesome-opensource-school) by zefanja - Free and open source software for classrooms and school servers, grouped by subject.
 
 ## What qualifies
 
