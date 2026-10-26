@@ -11,7 +11,7 @@ An awesome list is a hand-picked collection of the best tools, libraries and rea
 
 This is a list of lists. It points to one good starting place for each topic, from Kubernetes and Rust to accessibility and testing, so you can find the right one in a minute instead of an afternoon.
 
-To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 624 lists so far.
+To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 649 lists so far.
 
 ## Contents
 
@@ -298,6 +298,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-ddd](https://github.com/heynickc/awesome-ddd) by Nick Chamberlain - Domain-driven design, CQRS and event sourcing resources.
 - [awesome-event-driven-architecture](https://github.com/lutzh/awesome-event-driven-architecture) by Lutz Hühnken - Reading and tools for event-driven systems.
+- [awesome-integration](https://github.com/stn1slv/awesome-integration) by Stanislav Deviatov - System integration platforms, message brokers and API gateways.
 - [awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) by Mehdi Hadeli - Articles, videos and other resources for learning software architecture.
 - [awesome-software-architecture](https://github.com/simonaronsson/awesome-software-architecture) by Simon Aronsson - Another good collection on software architecture.
 - [awesome-wardley-maps](https://github.com/wardley-maps-community/awesome-wardley-maps) by Wardley Maps Community - Reading, courses, tools and real examples of Wardley mapping.
@@ -337,6 +338,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 ### Editors
 
+- [awesome-devcontainers](https://github.com/manekinekko/awesome-devcontainers) by Wassim Chegham - Templates, features and tools for development containers.
 - [awesome-emacs](https://github.com/emacs-tw/awesome-emacs) by Emacs.tw - Packages and libraries for Emacs.
 - [awesome-neovim](https://github.com/rockerBOO/awesome-neovim) by Dave Lage - Plugins and resources for Neovim.
 - [awesome-vim](https://github.com/akrawchyk/awesome-vim) by Andrew Krawchyk - A short list of Vim plugins worth knowing.
@@ -397,6 +399,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) by awesome-selfhosted - Free software network services and web apps you can host yourself.
 - [awesome-startpage](https://github.com/jnmcfly/awesome-startpage) by Jan - Browser start pages and dashboards you can host yourself.
 - [awesome-tunneling](https://github.com/anderspitman/awesome-tunneling) by Anders Pitman - Alternatives to ngrok, Cloudflare Tunnel and Tailscale for exposing local services.
+- [awesome-webdav](https://github.com/fstanis/awesome-webdav) by Filip Stanis - WebDAV servers, clients and the apps that support it.
 - [Compose-Examples](https://github.com/Haxxnet/Compose-Examples) by Haxxnet - Ready-made Docker Compose files for self-hosted services.
 - [definitive-opensource](https://github.com/mustbeperfect/definitive-opensource) by Lucas - The best consumer-facing open source apps, by category.
 - [Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) by Michael Royal - A guide to hosting your own services, at home or in the cloud.
@@ -627,6 +630,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) by troxler - CSS frameworks compared.
 - [awesome-css-learning](https://github.com/micromata/awesome-css-learning) by Micromata GmbH - A short list of the best places to learn CSS.
 - [awesome-sass](https://github.com/Famolus/awesome-sass) by Famolus - Sass and SCSS frameworks and libraries.
+- [awesome-stylelint](https://github.com/stylelint/awesome-stylelint) by Stylelint - Plugins, configs and tools for the Stylelint CSS linter.
 - [awesome-svg](https://github.com/willianjusten/awesome-svg) by Willian Justen  - SVG tools, tutorials and examples.
 - [awesome-threejs](https://github.com/AxiomeCG/awesome-threejs) by Adam NAILI - Tutorials, shaders and tools for three.js.
 - [awesome-typography](https://github.com/Jolg42/awesome-typography) by Joël Galeran - Digital typography resources.
@@ -708,6 +712,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-dataviz](https://github.com/hal9ai/awesome-dataviz) by hal9.ai - Data visualisation libraries and tools.
 - [awesome-jupyter](https://github.com/markusschanta/awesome-jupyter) by Markus Schanta - Jupyter projects, libraries and tools.
 - [awesome-network-analysis](https://github.com/briatte/awesome-network-analysis) by François Briatte - Books, courses and software for network analysis.
+- [awesome-pandas](https://github.com/tommyod/awesome-pandas) by Tommy - Courses, talks and libraries for working with pandas.
 - [awesome-polars](https://github.com/ddotta/awesome-polars) by Damien Dotta - Talks, plugins and examples for Polars.
 - [awesome-shiny-extensions](https://github.com/nanxstats/awesome-shiny-extensions) by Nan Xiao - R and Python packages that extend Shiny apps.
 - [awesome-time-series](https://github.com/lmmentel/awesome-time-series) by Lukasz Mentel - Packages, databases and papers for time series data.
@@ -738,6 +743,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-sqlalchemy](https://github.com/dahlia/awesome-sqlalchemy) by Hong Minhee (洪 民憙) - Tools for SQLAlchemy.
 - [awesome-sqlite](https://github.com/planetopendata/awesome-sqlite) by Planet Open Data - SQLite tools, scripts and books.
 - [awesome-supabase](https://github.com/lyqht/awesome-supabase) by Estee Tey - Starters and resources for Supabase.
+- [awesome-surreal](https://github.com/surrealdb/awesome-surreal) by SurrealDB - Tools, client libraries and apps for SurrealDB.
 - [sqlserver-kit](https://github.com/ktaranov/sqlserver-kit) by Konstantin Taranov - Scripts, tools and best practice for Microsoft SQL Server.
 
 ### Geospatial
@@ -746,10 +752,12 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [Awesome-Geospatial](https://github.com/sacridini/Awesome-Geospatial) by Eduardo Lacerda - Geospatial tools across remote sensing, web maps and spatial databases.
 - [awesome-gis](https://github.com/sshuair/awesome-gis) by sshuair - GIS software, libraries and data sources.
 - [awesome-maplibre](https://github.com/maplibre/awesome-maplibre) by MapLibre - Projects that use or support the MapLibre map libraries.
+- [awesome-maps](https://github.com/simsieg/awesome-maps) by Simon Siegert - Interesting online maps on every subject from history to weather.
 - [awesome-openstreetmap](https://github.com/osmlab/awesome-openstreetmap) by OSM Lab - Editors, tools and services for OpenStreetMap.
 
 ### Open data
 
+- [awesome-iiif](https://github.com/IIIF/awesome-iiif) by International Image Interoperability Framework - Viewers, servers and tools for sharing images from libraries and museums with IIIF.
 - [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) by AwesomeData - Open datasets grouped by topic.
 - [awesome-public-real-time-datasets](https://github.com/bytewax/awesome-public-real-time-datasets) by Bytewax - Free public data streams you can build real-time projects on.
 - [awesome-transit](https://github.com/MobilityData/awesome-transit) by MobilityData IO - Transit data standards, APIs, apps and datasets.
@@ -789,6 +797,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-canbus](https://github.com/iDoka/awesome-canbus) by Dmitry Murzinov - Tools and hardware for working with CAN bus.
 - [awesome-industrial-protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols) by Orange Cyberdefense - Industrial network protocols and the tools for testing them.
+- [awesome-rtc-hacking](https://github.com/EnableSecurity/awesome-rtc-hacking) by Enable Security - Tools and research on the security of VoIP and WebRTC.
 - [awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) by Jared M. Smith - Talks, courses and research on vehicle security.
 
 ### Offensive security
@@ -814,7 +823,9 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 ### Privacy and identity
 
 - [awesome-anti-censorship](https://github.com/danoctavian/awesome-anti-censorship) by Dan Half-Stack Octavian - Open source tools for getting around censorship and surveillance.
+- [awesome-auth](https://github.com/casdoor/awesome-auth) by Casdoor - Authentication and authorisation libraries, services and standards.
 - [awesome-iam](https://github.com/kdeldycke/awesome-iam) by Kevin Deldycke - Identity and access management knowledge for cloud platforms.
+- [awesome-keepass](https://github.com/lgg/awesome-keepass) by Fedor - KeePass clients, plugins and tools across platforms.
 - [awesome-privacy](https://github.com/lissy93/awesome-privacy) by Alicia Sykes - Privacy and security focused software and services.
 - [awesome-privacy](https://github.com/pluja/awesome-privacy) by pluja - Privacy-respecting services and apps to replace the mainstream ones.
 - [awesome-webauthn](https://github.com/yackermann/awesome-webauthn) by Ackermann Yuriy - Libraries, demos and specs for WebAuthn and passkeys.
@@ -833,6 +844,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-burp-extensions](https://github.com/snoopysecurity/awesome-burp-extensions) by Sam Sanoop - Burp Suite extensions, grouped by what they test.
 - [awesome-docker-security](https://github.com/myugan/awesome-docker-security) by Muhammad Yuga N. - Docker and container security reading and tools.
+- [awesome-dotnet-security](https://github.com/guardrailsio/awesome-dotnet-security) by GuardRails - Tools and reading for securing .NET apps.
 - [awesome-graphql-security](https://github.com/Escape-Technologies/awesome-graphql-security) by Escape - Offensive security for the teams that are 100x outnumbered - Resources for securing GraphQL APIs.
 - [awesome-nodejs-security](https://github.com/lirantal/awesome-nodejs-security) by Liran Tal - Tools and reading for securing Node.js apps.
 - [Awesome-WAF](https://github.com/0xInfection/Awesome-WAF) by Pinaki - How web application firewalls work and how they are tested.
@@ -849,6 +861,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing) by Théo FIDRY - Mutation testing tools across languages.
 - [awesome-playwright](https://github.com/mxschmitt/awesome-playwright) by Max Schmitt - Tools, utilities and projects built with Playwright.
 - [awesome-regression-testing](https://github.com/mojoaxel/awesome-regression-testing) by Alexander Wunschik - Visual regression testing resources.
+- [awesome-robotframework](https://github.com/MarketSquare/awesome-robotframework) by marketsquare - Libraries, tools and learning material for Robot Framework.
 - [awesome-selenium](https://github.com/christian-bromann/awesome-selenium) by Christian Bromann - Selenium resources.
 - [awesome-sites-to-test-on](https://github.com/BMayhew/awesome-sites-to-test-on) by Butch Mayhew - Practice sites for web, API, mobile and security testing.
 - [awesome-tap](https://github.com/sindresorhus/awesome-tap) by Sindre Sorhus - Resources for the Test Anything Protocol.
@@ -909,6 +922,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-copilot](https://github.com/github/awesome-copilot) by GitHub - Community instructions, agents and skills for GitHub Copilot.
 - [awesome-dspy](https://github.com/ganarajpr/awesome-dspy) by Ganaraj P R - Tutorials, projects and papers for DSPy.
 - [awesome-gemini-cli](https://github.com/Piebald-AI/awesome-gemini-cli) by Piebald - Extensions and resources for Gemini CLI.
+- [awesome-gemma](https://github.com/google-gemma/awesome-gemma) by Google Gemma - Tools, fine-tunes and guides for Google's Gemma models.
 - [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) by Steven Van Vaerenbergh - Generative AI projects and services.
 - [awesome-langchain](https://github.com/kyrolabs/awesome-langchain) by Kyrolabs - Projects built with LangChain.
 - [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) by Hannibal046 - Large language model papers, tools and courses.
@@ -958,8 +972,10 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-devrel](https://github.com/devrelcollective/awesome-devrel) by DevRel Collective - Tools and reading for developer relations work.
 - [awesome-docs](https://github.com/testthedocs/awesome-docs) by TestTheDocs - Incubator - Tools for writing and testing documentation.
 - [awesome-docsify](https://github.com/docsifyjs/awesome-docsify) by docsifyjs - Plugins, themes and showcases for docsify.
+- [awesome-graphviz](https://github.com/dbt4u/awesome-graphviz) by Detlef Burkhardt - Tools, bindings and editors for drawing diagrams with Graphviz.
 - [awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX) by Egon Geerardyn - LaTeX tools, packages and guides.
 - [awesome-markdown](https://github.com/mundimark/awesome-markdown) by Mundi Mark - Markdown flavours, tools and extensions.
+- [awesome-marp](https://github.com/marp-team/awesome-marp) by Marp - Themes, tools and examples for making slides in Markdown with Marp.
 - [awesome-quarto](https://github.com/mcanouil/awesome-quarto) by Mickaël Canouil - Quarto talks, tools and examples.
 - [awesome-readme](https://github.com/matiassingers/awesome-readme) by Matias Singers - READMEs worth copying ideas from.
 - [awesome-scientific-writing](https://github.com/writing-resources/awesome-scientific-writing) by writing-resources - Tools and demos for scientific writing.
@@ -998,6 +1014,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 ### IoT, networks and radio
 
 - [awesome-5g](https://github.com/calee0219/awesome-5g) by Chia-An Lee - Open 5G cores, radio access networks and test tools.
+- [awesome-edge-computing](https://github.com/qijianpeng/awesome-edge-computing) by QI Jianpeng - Edge computing frameworks, simulators and papers.
 - [awesome-gnss](https://github.com/barbeau/awesome-gnss) by Sean Barbeau - Open source GNSS apps, tools and libraries.
 - [awesome-iot](https://github.com/HQarroum/awesome-iot) by Halim Qarroum - Internet of Things projects and tools.
 - [awesome-mqtt](https://github.com/awesome-mqtt/awesome-mqtt) by awesome-mqtt - MQTT brokers, clients and tools.
@@ -1021,6 +1038,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 ### Engines and frameworks
 
 - [awesome-flame](https://github.com/flame-engine/awesome-flame) by Flame Engine - Games, libraries and tutorials for the Flame engine for Flutter.
+- [awesome-gamemaker](https://github.com/bytecauldron/awesome-gamemaker) by bytecauldron - Libraries, snippets and guides for GameMaker.
 - [awesome-godot](https://github.com/Calinou/awesome-godot) by Hugo Locurcio - Free plugins, demos and templates for Godot.
 - [awesome-love2d](https://github.com/love2d-community/awesome-love2d) by LÖVE Community - Libraries and tools for the LÖVE framework.
 - [awesome-monogame](https://github.com/aloisdeniel/awesome-monogame) by Aloïs Deniel - Libraries and tools for MonoGame.
@@ -1032,6 +1050,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-entity-component-system](https://github.com/jslee02/awesome-entity-component-system) by Jeongseok (JS) Lee - Entity component system libraries and reading.
 - [awesome-game-design](https://github.com/Roobyx/awesome-game-design) by Marian Radev - Game design documents, pitches and learning material.
 - [awesome-game-engine-dev](https://github.com/stevinz/awesome-game-engine-dev) by Stephens Nunnally - Game engines and the reading behind building one.
+- [awesome-steam](https://github.com/scholtzm/awesome-steam) by Michael Scholtz - Libraries, APIs and tools for building on Steam.
 - [magictools](https://github.com/ellisonleao/magictools) by Ellison - Tools and assets for game development, from art to audio and engines.
 - [MultiplayerNetworkingResources](https://github.com/0xFA11/MultiplayerNetworkingResources) by Fatih Mar - Articles, talks and libraries on multiplayer game networking.
 
@@ -1080,11 +1099,14 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-computational-social-science](https://github.com/gesiscss/awesome-computational-social-science) by GESIS – Leibniz Institute for the Social Sciences - Courses, books and tools for computational social science.
 - [awesome-control-theory](https://github.com/A-make/awesome-control-theory) by A-make - Books, courses and tools for learning control theory.
 - [awesome-earth](https://github.com/philsturgeon/awesome-earth) by Phil Sturgeon - Practical things people and teams can do about the climate crisis.
+- [awesome-materials-informatics](https://github.com/tilde-lab/awesome-materials-informatics) by Tilde - Software, data and efforts in materials informatics.
 - [awesome-math](https://github.com/rossant/awesome-math) by Cyrille Rossant - Courses, books and tools for learning mathematics.
 - [awesome-neuroscience](https://github.com/analyticalmonk/awesome-neuroscience) by Akash Tandon - Neuroscience libraries, software and learning material.
+- [awesome-nuclear](https://github.com/paulromano/awesome-nuclear) by Paul Romano - Open source software for nuclear science and engineering.
 - [awesome-open-climate-science](https://github.com/pangeo-data/awesome-open-climate-science) by Pangeo - Open software for climate, ocean and atmospheric science.
 - [awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience) by Software Underground - Open source software and data for geoscience.
 - [awesome-optimization](https://github.com/ebrahimpichka/awesome-optimization) by Ebrahim Pichka - Courses and software for mathematical optimisation.
+- [awesome-PhD](https://github.com/helenahartmann/awesome-PhD) by Helena Hartmann - Resources for doing a PhD, from writing and funding to wellbeing.
 - [awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry) by Lukasz Mentel - Python packages for chemistry.
 - [awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) by Quantum Open Source Foundation - Open source quantum computing software.
 - [awesome-research](https://github.com/emptymalei/awesome-research) by LM - Tools that help researchers organise reading, writing and data.
@@ -1092,6 +1114,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-single-cell](https://github.com/seandavi/awesome-single-cell) by Sean Davis - Software and data for single-cell analysis.
 - [awesome-space](https://github.com/orbitalindex/awesome-space) by The Orbital Index - Space-related software, APIs and data.
 - [awesome-theoretical-computer-science](https://github.com/mostafatouny/awesome-theoretical-computer-science) by Mostafa Touny - Lecture notes and books on theoretical computer science.
+- [awesome-zotero](https://github.com/MohamedElashri/awesome-zotero) by Mohamed Elashri - Plugins, styles and tools for the Zotero reference manager.
 - [open-sustainable-technology](https://github.com/protontypes/open-sustainable-technology) by protontypes - Open source projects on climate, clean energy and biodiversity.
 
 ## Decentralised web
@@ -1129,7 +1152,9 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 ### Open source and community
 
+- [awesome-ospo](https://github.com/todogroup/awesome-ospo) by TODO (OSPO) Group - Tools for running an open source programme office.
 - [awesome-oss](https://github.com/sereneblue/awesome-oss) by sereneblue - Open source projects you can contribute to or donate to.
+- [awesome-software-patreons](https://github.com/uraimo/awesome-software-patreons) by uraimo - Developers and open source projects you can support with a regular donation.
 - [lemonade-stand](https://github.com/nayafia/lemonade-stand) by Nadia - Ways to fund open source work, with examples of each.
 - [tech-coops](https://github.com/hng/tech-coops) by Henning - Worker-owned tech co-operatives and how they work.
 
