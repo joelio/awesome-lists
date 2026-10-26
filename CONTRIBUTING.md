@@ -38,3 +38,7 @@ If you would rather not edit the README, use the "Suggest a list" issue form and
 ## Removing or fixing an entry
 
 Broken link, archived list or a better one in the same niche? Open a pull request or an issue. The weekly checks also open issues labelled `broken-links` and `stale-lists` when they find something.
+
+## Finding new lists
+
+`scripts/find_lists.py` helps with the hunt. `python3 scripts/find_lists.py discover README.md` prints lists from the [ecosyste.ms awesome catalogue](https://awesome.ecosyste.ms) that are not here yet and already meet the numbers above. `python3 scripts/find_lists.py vet slugs.txt` checks a file of `owner/repo` lines against the same rules, finds the owner's name and scores how many items in each README have a description. The numbers are a filter, not a verdict: still read each list before adding it.
