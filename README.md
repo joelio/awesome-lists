@@ -11,7 +11,7 @@ An awesome list is a hand-picked collection of the best tools, libraries and rea
 
 This is a list of lists. It points to one good starting place for each topic, from Kubernetes and Rust to accessibility and testing, so you can find the right one in a minute instead of an afternoon.
 
-To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 658 lists so far.
+To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 675 lists so far.
 
 ## Contents
 
@@ -152,6 +152,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
   - [Startups and indie](#startups-and-indie)
 - [General](#general)
   - [Everyday apps and sites](#everyday-apps-and-sites)
+  - [Inclusion and wellbeing](#inclusion-and-wellbeing)
   - [Indexes of lists](#indexes-of-lists)
   - [Learning](#learning)
   - [Practice and conventions](#practice-and-conventions)
@@ -175,10 +176,13 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-ci](https://github.com/ligurio/awesome-ci) by Sergey Bronnikov - Continuous integration services and tools, from hosted CI to self-hosted runners.
 - [awesome-ciandcd](https://github.com/cicdops/awesome-ciandcd) by cicdops - Tools, services and practices for continuous integration and delivery.
+- [awesome-feature-flag-management](https://github.com/andrewdmaclean/awesome-feature-flag-management) by Andrew MacLean - Feature flag tools, services and practices.
 - [awesome-runners](https://github.com/jonico/awesome-runners) by Johannes Nicolai - Options for running your own GitHub Actions runners.
 
 ### General and SRE
 
+- [awesome-ai-sre](https://github.com/agamm/awesome-ai-sre) by Agam More - AI tools for incident response, on-call and root cause analysis.
+- [awesome-backstage](https://github.com/shano/awesome-backstage) by Shane Dowling - Plugins, guides and talks for the Backstage developer portal.
 - [awesome-chaos-engineering](https://github.com/adriannovegil/awesome-chaos-engineering) by Adrian Novegil - Chaos engineering tools, principles and articles.
 - [awesome-devops](https://github.com/wmariuss/awesome-devops) by Marius Stanca - DevOps platforms, tools and practices gathered in one place.
 - [awesome-platform-engineering-tools](https://github.com/seifrajhi/awesome-platform-engineering-tools) by saifeddine Rajhi - Tools, reference architectures and reading for building internal developer platforms.
@@ -209,6 +213,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-kubectl-plugins](https://github.com/ishantanu/awesome-kubectl-plugins) by Shantanu Deshpande - A catalogue of kubectl plugins.
 - [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by Ramit Surana - The wide-ranging list of Kubernetes tools and reading.
 - [awesome-kubestronaut](https://github.com/yetmike/awesome-kubestronaut) by Mykhailo - Study material for the CNCF Kubernetes certifications, exam by exam.
+- [awesome-kustomize](https://github.com/DevOpsHiveHQ/awesome-kustomize) by DevOps Hive - Tools and guides for Kustomize.
 - [awesome-nomad](https://github.com/jippi/awesome-nomad) by Christian Winther - User interfaces, plugins, job files and tutorials for HashiCorp Nomad.
 - [awesome-swarm](https://github.com/BretFisher/awesome-swarm) by Bret Fisher - Tools, docs and training for Docker Swarm mode.
 
@@ -269,6 +274,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 ### Policy as code
 
+- [awesome-compliance](https://github.com/theopenlane/awesome-compliance) by Openlane - Frameworks, tools and libraries for security compliance work.
 - [awesome-opa](https://github.com/open-policy-agent/awesome-opa) by Open Policy Agent - Tools, frameworks and articles for Open Policy Agent.
 - [awesome-security-GRC](https://github.com/GRC-Engineer/awesome-security-GRC) by Ayoub Fandi - Governance, risk, compliance and audit resources for security teams.
 
@@ -279,6 +285,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 ### Static and dynamic analysis
 
+- [awesome-codeql](https://github.com/advanced-security/awesome-codeql) by GitHub Advanced Security - Queries, tools and guides for CodeQL code scanning.
 - [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) by Analysis Tools - Dynamic analysis tools and linters for many languages.
 - [static-analysis](https://github.com/analysis-tools-dev/static-analysis) by Analysis Tools - Static analysis tools and linters for many languages.
 
@@ -382,6 +389,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-mac](https://github.com/jaywcjlove/awesome-mac) by 小弟调调 - High quality macOS software, grouped by use.
 - [awesome-macadmin-tools](https://github.com/smashism/awesome-macadmin-tools) by emily - Tools for managing Macs across an organisation.
 - [awesome-macOS](https://github.com/iCHAIT/awesome-macOS) by Chaitanya Gupta - Applications and tools for macOS.
+- [awesome-openbsd-desktop](https://github.com/raffaelschneider/awesome-openbsd-desktop) by Raffael Schneider - Apps and guides for using OpenBSD as a desktop.
 - [awesome-powertoys-run-plugins](https://github.com/hlaueriksson/awesome-powertoys-run-plugins) by Henrik Lau Eriksson - Community plugins for the PowerToys Run launcher on Windows.
 - [awesome-unix](https://github.com/sirredbeard/awesome-unix) by Hayden Barnes - Linux, BSD, macOS and other Unix-like systems.
 - [awesome-windows](https://github.com/0PandaDEV/awesome-windows) by PandaDEV - Tools and apps for Windows.
@@ -390,6 +398,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 ## Self-hosting
 
 - [awesome-arr](https://github.com/Ravencentric/awesome-arr) by Raventric - Sonarr, Radarr and the related apps for managing a media library.
+- [awesome-communication](https://github.com/okhosting/awesome-communication) by Edgard David Iván Muñoz Chávez - Open source chat, video and collaboration tools.
 - [awesome-homelab](https://github.com/AwesomeHomelab/awesome-homelab) by AwesomeHomelab - Software, hardware and guides for building a homelab.
 - [awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin) by awesome-jellyfin - Plugins, themes and clients for the Jellyfin media server.
 - [awesome-opensource-email](https://github.com/Mindbaz/awesome-opensource-email) by Mindbaz - Open source mail servers, spam filters, webmail and testing tools.
@@ -683,6 +692,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-pwa](https://github.com/hemanth/awesome-pwa) by Hemanth HM - Progressive Web Apps, tools and articles.
 - [awesome-wasm](https://github.com/mbasso/awesome-wasm) by Matteo Basso - Things around WebAssembly.
+- [awesome-web-performance-budget](https://github.com/pajaydev/awesome-web-performance-budget) by Ajaykumar - Articles, tools and case studies for setting web performance budgets.
 - [awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) by Davidson Fellipe - Web performance optimisation tools and reading.
 - [frontend-case-studies](https://github.com/andrew--r/frontend-case-studies) by Andrey Romanov - Talks and articles on how real companies build their frontends.
 
@@ -827,8 +837,11 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-auth](https://github.com/casdoor/awesome-auth) by Casdoor - Authentication and authorisation libraries, services and standards.
 - [awesome-iam](https://github.com/kdeldycke/awesome-iam) by Kevin Deldycke - Identity and access management knowledge for cloud platforms.
 - [awesome-keepass](https://github.com/lgg/awesome-keepass) by Fedor - KeePass clients, plugins and tools across platforms.
+- [awesome-openid-connect](https://github.com/cerberauth/awesome-openid-connect) by CerberAuth - OpenID Connect libraries, providers and specs.
 - [awesome-privacy](https://github.com/lissy93/awesome-privacy) by Alicia Sykes - Privacy and security focused software and services.
 - [awesome-privacy](https://github.com/pluja/awesome-privacy) by pluja - Privacy-respecting services and apps to replace the mainstream ones.
+- [awesome-spicedb](https://github.com/authzed/awesome-spicedb) by authzed - Clients, tools and examples for SpiceDB fine-grained permissions.
+- [awesome-tor](https://github.com/Polycarbohydrate/awesome-tor) by Polycarbohydrate - Tools, guides and research on the Tor network.
 - [awesome-webauthn](https://github.com/yackermann/awesome-webauthn) by Ackermann Yuriy - Libraries, demos and specs for WebAuthn and passkeys.
 
 ### Reverse engineering
@@ -911,6 +924,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-ai-eval](https://github.com/Vvkmnn/awesome-ai-eval) by V - Tools, methods and platforms for evaluating how reliable AI systems are.
 - [awesome-artificial-intelligence-regulation](https://github.com/EthicalML/awesome-artificial-intelligence-regulation) by The Institute for Ethical Machine Learning - AI guidelines, principles, standards and laws around the world.
+- [awesome-green-ai](https://github.com/samuelrince/awesome-green-ai) by Samuel Rincé - Tools and research for measuring and reducing the environmental cost of AI.
 - [awesome-llm-interpretability](https://github.com/JShollaj/awesome-llm-interpretability) by Johnny Shollaj - Tools, papers and articles on understanding how LLMs work inside.
 - [Awesome-LLM-Safety](https://github.com/ydyjya/Awesome-LLM-Safety) by ydyjya - Papers and articles on LLM safety, from alignment to jailbreaks.
 
@@ -1024,6 +1038,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-gnss](https://github.com/barbeau/awesome-gnss) by Sean Barbeau - Open source GNSS apps, tools and libraries.
 - [awesome-iot](https://github.com/HQarroum/awesome-iot) by Halim Qarroum - Internet of Things projects and tools.
 - [awesome-mqtt](https://github.com/awesome-mqtt/awesome-mqtt) by awesome-mqtt - MQTT brokers, clients and tools.
+- [awesome-netbox](https://github.com/osism/awesome-netbox) by OSISM - Plugins, scripts and integrations for the NetBox network source of truth.
 - [awesome-networking](https://github.com/facyber/awesome-networking) by Marko Andrejić - Courses, books and tools for computer networking.
 - [awesome-telco](https://github.com/ravens/awesome-telco) by Yan Grunenberger - A guided way into telecoms, from mobile network basics to running your own core.
 
@@ -1048,6 +1063,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-godot](https://github.com/Calinou/awesome-godot) by Hugo Locurcio - Free plugins, demos and templates for Godot.
 - [awesome-love2d](https://github.com/love2d-community/awesome-love2d) by LÖVE Community - Libraries and tools for the LÖVE framework.
 - [awesome-monogame](https://github.com/aloisdeniel/awesome-monogame) by Aloïs Deniel - Libraries and tools for MonoGame.
+- [awesome-rust-gamedev](https://github.com/NightsWatchGames/awesome-rust-gamedev) by Night's Watch Games - Engines, libraries and tutorials for making games in Rust.
 - [awesome-unity3d](https://github.com/insthync/awesome-unity3d) by Ittipon Teerapruettikulchai - Open source Unity projects and packages by category.
 - [awesome-unreal](https://github.com/insthync/awesome-unreal) by Ittipon Teerapruettikulchai - Open source Unreal Engine plugins and projects by category.
 
@@ -1102,6 +1118,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-astronomy](https://github.com/jonathansick/awesome-astronomy) by Jonathan Sick - Astronomy software, datasets and blogs.
 - [awesome-bci](https://github.com/NeuroTechX/awesome-bci) by NeuroTechX - Software, hardware and datasets for brain-computer interfaces.
 - [Awesome-Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics) by Daniel E Cook - Bioinformatics software and libraries.
+- [awesome-cern](https://github.com/CERN/awesome-cern) by European Organization for Nuclear Research - Open source software from CERN, from physics tools to everyday services.
 - [awesome-climate-change](https://github.com/stevematthew/awesome-climate-change) by Stephen Matthew - Data, tools and reading on climate change.
 - [awesome-computational-social-science](https://github.com/gesiscss/awesome-computational-social-science) by GESIS – Leibniz Institute for the Social Sciences - Courses, books and tools for computational social science.
 - [awesome-control-theory](https://github.com/A-make/awesome-control-theory) by A-make - Books, courses and tools for learning control theory.
@@ -1180,6 +1197,10 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-free-apps](https://github.com/Axorax/awesome-free-apps) by Axorax - Free apps for desktop and mobile, by category.
 - [awesome-useful-websites](https://github.com/atakanaltok/awesome-useful-websites) by Atakan - Useful websites for everyday tasks, from diagrams to file conversion.
 - [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade) by Chris Barber - Tools of the trade, as shared on Hacker News.
+
+### Inclusion and wellbeing
+
+- [awesome-transgender](https://github.com/cvyl/awesome-transgender) by Mikka - Resources for transgender people, from health and legal guidance to community.
 
 ### Indexes of lists
 
