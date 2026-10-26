@@ -11,7 +11,7 @@ An awesome list is a hand-picked collection of the best tools, libraries and rea
 
 This is a list of lists. It points to one good starting place for each topic, from Kubernetes and Rust to accessibility and testing, so you can find the right one in a minute instead of an afternoon.
 
-To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 613 lists so far.
+To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 621 lists so far.
 
 ## Contents
 
@@ -184,6 +184,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-sre](https://github.com/dastergon/awesome-sre) by Pavlos Ratis - Reading, tools and talks on site reliability and production engineering.
 - [awesome-sre-tools](https://github.com/SquadcastHub/awesome-sre-tools) by Squadcast Inc - Tools for incident response, monitoring and on-call work.
 - [awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) by awesome-foss - Open source software for people who run servers and networks.
+- [howtheysre](https://github.com/upgundecha/howtheysre) by Unmesh Gundecha - How companies run site reliability engineering, from their own blogs and talks.
 - [post-mortems](https://github.com/danluu/post-mortems) by Dan Luu - Public post-mortems from real outages, handy for learning how systems fail.
 
 ### Infrastructure as code
@@ -488,6 +489,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 ### JavaScript and TypeScript
 
+- [33-js-concepts](https://github.com/leonardomso/33-js-concepts) by Leonardo Maldonado - Reading on 33 core JavaScript concepts, from closures to the event loop.
 - [awesome-bun](https://github.com/oven-sh/awesome-bun) by Bun - Frameworks, libraries and articles for the Bun runtime.
 - [awesome-deno](https://github.com/denolib/awesome-deno) by DenoLib - Things built for and around Deno.
 - [awesome-eslint](https://github.com/dustinspecker/awesome-eslint) by Dustin Specker - ESLint plugins and configs.
@@ -622,6 +624,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-canvas](https://github.com/raphamorim/awesome-canvas) by Raphael Amorim - HTML5 Canvas examples and libraries.
 - [awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) by Terkel - Books, courses and tools for generative art and creative coding.
 - [awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) by troxler - CSS frameworks compared.
+- [awesome-css-learning](https://github.com/micromata/awesome-css-learning) by Micromata GmbH - A short list of the best places to learn CSS.
 - [awesome-sass](https://github.com/Famolus/awesome-sass) by Famolus - Sass and SCSS frameworks and libraries.
 - [awesome-svg](https://github.com/willianjusten/awesome-svg) by Willian Justen  - SVG tools, tutorials and examples.
 - [awesome-threejs](https://github.com/AxiomeCG/awesome-threejs) by Adam NAILI - Tutorials, shaders and tools for three.js.
@@ -848,6 +851,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-selenium](https://github.com/christian-bromann/awesome-selenium) by Christian Bromann - Selenium resources.
 - [awesome-sites-to-test-on](https://github.com/BMayhew/awesome-sites-to-test-on) by Butch Mayhew - Practice sites for web, API, mobile and security testing.
 - [awesome-tap](https://github.com/sindresorhus/awesome-tap) by Sindre Sorhus - Resources for the Test Anything Protocol.
+- [awesome-test-automation](https://github.com/atinfo/awesome-test-automation) by at.info - Test automation frameworks and tools, with a page for each language.
 - [awesome-testing](https://github.com/TheJambo/awesome-testing) by James Osborn - Testing blogs, talks and tools.
 
 ## Accessibility
@@ -928,6 +932,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-datascience](https://github.com/academic/awesome-datascience) by Academic.io - Data science material to learn from and apply.
 - [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) by Chris - Deep learning tutorials, projects and communities.
 - [awesome-deep-rl](https://github.com/kengz/awesome-deep-rl) by Keng - Libraries, environments and tutorials for deep reinforcement learning.
+- [awesome-full-stack-machine-learning-courses](https://github.com/leehanchung/awesome-full-stack-machine-learning-courses) by Han - Free university courses on machine learning engineering.
 - [awesome-jax](https://github.com/n2cholas/awesome-jax) by Nicholas Vadivelu - JAX libraries and learning material.
 - [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) by Joseph Misiti - Machine learning frameworks and libraries by language.
 - [awesome-mlops](https://github.com/kelvins/awesome-mlops) by Kelvin S. do Prado - MLOps tools and practices.
@@ -1094,6 +1099,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-bluesky](https://github.com/fishttp/awesome-bluesky) by fishttp - Tools, feeds and clients for Bluesky.
 - [awesome-decentralized-web](https://github.com/gdamdam/awesome-decentralized-web) by gio - Peer-to-peer, federated and local-first protocols and apps, with crypto left out.
 - [awesome-ipfs](https://github.com/ipfs/awesome-ipfs) by IPFS Project - Apps, tools and services built on IPFS.
+- [awesome-noir](https://github.com/noir-lang/awesome-noir) by noir-lang - Libraries, tools and learning material for the Noir zero-knowledge language.
 - [awesome-nostr](https://github.com/aljazceru/awesome-nostr) by Aljaz - Clients, relays and tools for the Nostr protocol.
 - [awesome-solidity](https://github.com/bkrem/awesome-solidity) by Ben Kremer - Solidity resources, libraries and tools.
 
@@ -1150,10 +1156,12 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code) by Bogdan Popa - Tools, templates and solutions for Advent of Code.
 - [awesome-algorithms](https://github.com/tayllan/awesome-algorithms) by Tayllan Búrigo - Places to learn and practise algorithms.
 - [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) by Shmavon Gazanchyan - Beginner-friendly projects to make a first contribution to.
+- [awesome-games-of-coding](https://github.com/michelpereira/awesome-games-of-coding) by Michel Pereira - Games that teach a programming language as you play.
 - [awesome-learn-by-playing](https://github.com/lmammino/awesome-learn-by-playing) by Luciano Mammino - Games that teach CSS, Git, SQL, regex and more.
 - [awesome-roadmaps](https://github.com/liuchong/awesome-roadmaps) by 刘冲 - Roadmaps for learning many technologies.
 - [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) by CodeCrafters - Step-by-step guides to building your own database, Git, shell and more.
 - [computer-science](https://github.com/ossu/computer-science) by Open Source Society University - A free, self-taught path through computer science.
+- [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) by Developer-Y - Recorded university computer science courses, grouped by subject.
 - [free-programming-books](https://github.com/EbookFoundation/free-programming-books) by Free Ebook Foundation - Free programming books and courses.
 - [learn-to-program](https://github.com/karlhorky/learn-to-program) by Karl Horky - Free resources for learning to program, from beginner to advanced.
 - [papers-we-love](https://github.com/papers-we-love/papers-we-love) by Papers We Love - Computer science papers worth reading and discussing.
