@@ -11,7 +11,7 @@ An awesome list is a hand-picked collection of the best tools, libraries and rea
 
 This is a list of lists. It points to one good starting place for each topic, from Kubernetes and Rust to accessibility and testing, so you can find the right one in a minute instead of an afternoon.
 
-To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 675 lists so far.
+To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a Mac) for a technology you care about. Each entry gives the list, the person or team behind it and a line on what is inside. There are 705 lists so far.
 
 ## Contents
 
@@ -134,10 +134,12 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
   - [Performance and HPC](#performance-and-hpc)
   - [Robotics](#robotics)
 - [Games](#games)
+  - [AI and data for games](#ai-and-data-for-games)
   - [Engines and frameworks](#engines-and-frameworks)
   - [Game development](#game-development)
   - [Open source games](#open-source-games)
   - [Retro and fantasy consoles](#retro-and-fantasy-consoles)
+  - [Tabletop and communities](#tabletop-and-communities)
 - [Media and creative](#media-and-creative)
   - [Audio and video](#audio-and-video)
   - [Graphics and 3D](#graphics-and-3d)
@@ -1056,22 +1058,37 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 ## Games
 
+### AI and data for games
+
+- [ai-game-devtools](https://github.com/Yuan-ManX/ai-game-devtools) by Yuan-Man - AI tools for game development, from code and dialogue to 3D, animation and audio.
+- [game-datasets](https://github.com/leomaurodesenv/game-datasets) by Leonardo Mauro - Game datasets, APIs and environments for training AI on games.
+
 ### Engines and frameworks
 
+- [awesome-babylonjs](https://github.com/Symbitic/awesome-babylonjs) by Alex - Extensions, examples and tutorials for the Babylon.js web 3D engine.
+- [awesome-bevy](https://github.com/nolantait/awesome-bevy) by Nolan Tait - Plugins, games and learning material for the Bevy engine in Rust.
+- [awesome-construct](https://github.com/ConstructCommunity/awesome-construct) by Construct Community - Add-ons, tools and tutorials for the Construct engine.
+- [awesome-defold](https://github.com/astrochili/awesome-defold) by Roman Silin - Libraries, tools and examples for the Defold engine.
 - [awesome-flame](https://github.com/flame-engine/awesome-flame) by Flame Engine - Games, libraries and tutorials for the Flame engine for Flutter.
+- [awesome-game-engines](https://github.com/ChessMax/awesome-game-engines) by Журат Максим - Game engines across languages and platforms, with a line on each.
 - [awesome-gamemaker](https://github.com/bytecauldron/awesome-gamemaker) by bytecauldron - Libraries, snippets and guides for GameMaker.
 - [awesome-godot](https://github.com/Calinou/awesome-godot) by Hugo Locurcio - Free plugins, demos and templates for Godot.
 - [awesome-love2d](https://github.com/love2d-community/awesome-love2d) by LÖVE Community - Libraries and tools for the LÖVE framework.
 - [awesome-monogame](https://github.com/aloisdeniel/awesome-monogame) by Aloïs Deniel - Libraries and tools for MonoGame.
 - [awesome-rust-gamedev](https://github.com/NightsWatchGames/awesome-rust-gamedev) by Night's Watch Games - Engines, libraries and tutorials for making games in Rust.
+- [awesome-sdl](https://github.com/RobLoach/awesome-sdl) by Rob Loach - Extensions, bindings and engines built on SDL.
 - [awesome-unity3d](https://github.com/insthync/awesome-unity3d) by Ittipon Teerapruettikulchai - Open source Unity projects and packages by category.
 - [awesome-unreal](https://github.com/insthync/awesome-unreal) by Ittipon Teerapruettikulchai - Open source Unreal Engine plugins and projects by category.
 
 ### Game development
 
 - [awesome-entity-component-system](https://github.com/jslee02/awesome-entity-component-system) by Jeongseok (JS) Lee - Entity component system libraries and reading.
+- [Awesome-Game-Analysis](https://github.com/OTFCG/Awesome-Game-Analysis) by OTFCG - Talks and breakdowns of how shipped games render, sorted by game and engine.
 - [awesome-game-design](https://github.com/Roobyx/awesome-game-design) by Marian Radev - Game design documents, pitches and learning material.
 - [awesome-game-engine-dev](https://github.com/stevinz/awesome-game-engine-dev) by Stephens Nunnally - Game engines and the reading behind building one.
+- [awesome-game-file-format-reversing](https://github.com/VelocityRa/awesome-game-file-format-reversing) by Nick Renieris - Docs and tools for reverse engineering game file formats.
+- [awesome-game-production](https://github.com/vhladiienko/awesome-game-production) by Vitalii - Books, articles and tools on producing games and running game teams.
+- [awesome-level-design](https://github.com/bytecauldron/awesome-level-design) by bytecauldron - Tools, talks and reading for game level design.
 - [awesome-steam](https://github.com/scholtzm/awesome-steam) by Michael Scholtz - Libraries, APIs and tools for building on Steam.
 - [magictools](https://github.com/ellisonleao/magictools) by Ellison - Tools and assets for game development, from art to audio and engines.
 - [MultiplayerNetworkingResources](https://github.com/0xFA11/MultiplayerNetworkingResources) by Fatih Mar - Articles, talks and libraries on multiplayer game networking.
@@ -1079,14 +1096,32 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 ### Open source games
 
 - [awesome-game-remakes](https://github.com/radek-sprta/awesome-game-remakes) by radek-sprta - Open source remakes of classic games that are still maintained.
+- [awesome-jsgames](https://github.com/proyecto26/awesome-jsgames) by Proyecto 26 - Open source JavaScript games you can play in the browser.
+- [awesome-mud](https://github.com/mudcoders/awesome-mud) by The MUD Coders Guild - Servers, clients and tutorials for building text-based multiplayer games.
 - [awesome-programming-games](https://github.com/readyready15728/awesome-programming-games) by Lynn Bradshaw - Games where you write code to play.
+- [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) by Sergey Bronnikov - Text-mode games for the Unix terminal, many playable over SSH or telnet.
+- [FLOSS-Games-on-Steam](https://github.com/Poussinou/FLOSS-Games-on-Steam) by Poussinou - Free and open source games, mods and tools you can get on Steam.
 - [open-source-games](https://github.com/bobeff/open-source-games) by Ivan Bobev - Open source games by genre, including remakes of classics.
 
 ### Retro and fantasy consoles
 
+- [awesome-8bitgamedev](https://github.com/8bitworkshop/awesome-8bitgamedev) by 8bitworkshop - Tools and guides for making games on 8-bit consoles and computers.
+- [awesome-demoscene](https://github.com/psykon/awesome-demoscene) by psykon - Tools, code and reading from the demoscene.
+- [awesome-dsdev](https://github.com/asiekierka/awesome-dsdev) by Adrian Siekierka - Toolchains, libraries and docs for Nintendo DS homebrew.
 - [awesome-emulators](https://github.com/DerekTurtleRoe/awesome-emulators) by Derek "Turtle" Roe - Emulators for consoles, handhelds and computers.
+- [awesome-gbadev](https://github.com/gbadev-org/awesome-gbadev) by gbadev - Tools, docs and libraries for Game Boy Advance development.
 - [awesome-gbdev](https://github.com/gbdev/awesome-gbdev) by gbdev - Tools, docs and homebrew for making Game Boy games.
+- [awesome-n64-development](https://github.com/command-tab/awesome-n64-development) by Collin Allen - Toolchains, docs and emulators for Nintendo 64 development.
 - [awesome-PICO-8](https://github.com/pico-8/awesome-PICO-8) by PICO-8 - Carts, tools and tutorials for the PICO-8 fantasy console.
+- [awesome-uxn](https://github.com/hundredrabbits/awesome-uxn) by Hundredrabbits - Programs, tools and guides for the Uxn virtual computer.
+
+### Tabletop and communities
+
+- [awesome-board-games](https://github.com/edm00se/awesome-board-games) by Eric McCormick - Standout board games, with player counts, ages and play times.
+- [awesome-chess](https://github.com/mbiesiad/awesome-chess) by Michal - Chess engines, apps, books and learning sites.
+- [awesome-esports](https://github.com/Strift/awesome-esports) by Strift - Open source projects for esports, from stats APIs to tournament tools.
+- [awesome-minecraft](https://github.com/bs-community/awesome-minecraft) by Blessing Skin - Servers, launchers, mods and tools for Minecraft.
+- [awesome-tabletop-rpgs](https://github.com/Zireael07/awesome-tabletop-rpgs) by Zireael07 - Free and open source tabletop role-playing games.
 
 ## Media and creative
 
@@ -1094,6 +1129,7 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 
 - [awesome-broadcasting](https://github.com/ebu/awesome-broadcasting) by European Broadcasting Union - Open source tools for broadcast production and playout.
 - [awesome-ffmpeg](https://github.com/transitive-bullshit/awesome-ffmpeg) by Travis Fischer - FFmpeg docs, wrappers and tutorials.
+- [awesome-javascript-audio](https://github.com/sc0ttj/awesome-javascript-audio) by Scott J - JavaScript libraries for playing, making and processing sound.
 - [awesome-mpv](https://github.com/stax76/awesome-mpv) by stax76 - Front ends, scripts and add-ons for the mpv player.
 - [awesome-video](https://github.com/krzemienski/awesome-video) by Nick Krzemienski - Streaming video tools, codecs, players and learning material.
 
@@ -1103,7 +1139,9 @@ To use it, browse the sections below or search the page (Ctrl+F, or Cmd+F on a M
 - [awesome-opengl](https://github.com/eug/awesome-opengl) by Eugênio Cabral - OpenGL libraries, debuggers and tutorials.
 - [awesome-OpenSourcePhotography](https://github.com/ibaaj/awesome-OpenSourcePhotography) by Ismaïl Baaj - Open source software and camera mods for photography.
 - [awesome-openusd](https://github.com/matiascodesal/awesome-openusd) by matiascodesal - Learning material and tools for OpenUSD.
+- [awesome-voxel](https://github.com/meshula/awesome-voxel) by Nick Porcino - Voxel engines, formats and reading for programmers.
 - [awesome-vulkan](https://github.com/vinjn/awesome-vulkan) by Jing Zhang - Vulkan SDKs, tutorials, samples and tools.
+- [awesome-webxr](https://github.com/msub2/awesome-webxr) by Daniel Adams - Frameworks, tools and samples for building VR and AR on the web.
 
 ### Music
 
